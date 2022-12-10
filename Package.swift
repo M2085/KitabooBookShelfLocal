@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "KitabooBookShelfLocal",
+    platforms: [
+            .iOS(.v13),
+        ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -16,9 +19,9 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        .binaryTarget(name: "KitabooBookShelfFramework", url: "https://github.com/M2085/BVBRemotePackage/blob/main/KitabooBookShelfFramework.xcframework.zip", checksum: "0be95f207c2725fa0310df9a27c1ad29e0359e3b3613693a0ae9358370d5db9f"),
-        .binaryTarget(name: "Kitaboo_Reader_SDK", url: "https://github.com/M2085/BVBRemotePackage/blob/main/Kitaboo_Reader_SDK.xcframework.zip", checksum: "605ae26dd183efa4ee6fd737b93aa614ea3fd0ffa99ed1312a95e5bea76c4cd5"),
-        .binaryTarget(name: "KitabooSDKWithReader", url: "https://github.com/M2085/BVBRemotePackage/blob/main/KitabooSDKWithReader.xcframework.zip", checksum: "2376333bc863a5a6ac1db9bc706388824f53188edb9cf94c96506a46f50e630a"),
+        .binaryTarget(name: "KitabooBookShelfFramework", url: "https://github.com/M2085/BVBRemotePackage/blob/main/KitabooBookShelfFramework.xcframework.zip", checksum: "d90fdd45c819abb12b4db368157b76cba6e063b4046cdc3609a5eee649724eaa"),
+        .binaryTarget(name: "Kitaboo_Reader_SDK", url: "https://github.com/M2085/BVBRemotePackage/blob/main/Kitaboo_Reader_SDK.xcframework.zip", checksum: "0e992ed8645af03f4d17a362362683874310d88311bf740d5aff20a7a2c55607"),
+        .binaryTarget(name: "KitabooSDKWithReader", url: "https://github.com/M2085/BVBRemotePackage/blob/main/KitabooSDKWithReader.xcframework.zip", checksum: "328b44d1a58f82ca60701ce86a11c38873e05e8f87f74f040cd98d126ddae47c"),
         .target(
             name: "KitabooBookShelfLocal",
             dependencies: []),
