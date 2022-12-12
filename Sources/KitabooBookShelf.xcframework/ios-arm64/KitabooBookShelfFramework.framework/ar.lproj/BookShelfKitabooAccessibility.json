@@ -1,0 +1,202 @@
+{
+    "CategoryTitle": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "BookCoverImageWhenBookIsDownloaded": {
+        "hint":"انقر نقرًا مزدوجًا لفتح الكتاب",
+        "label":"تم التنزيل %@",
+        "isAccessiblityEnabled":true
+    },
+    "BookCoverImageWhenBookIsNotDownloaded": {
+        "hint":"انقر نقرا مزدوجا لفتح مزيد من المعلومات",
+        "label":"لم يحمل ٪@",
+        "isAccessiblityEnabled":true
+    },
+    "SeacrhBookButton": {
+        "hint":"انقر نقرًا مزدوجًا للبحث عن الكتب",
+        "label":"يبحث",
+        "isAccessiblityEnabled":true
+    },
+    "AddBookButton": {
+        "hint":"انقر نقرًا مزدوجًا لإضافة كتاب",
+        "label":"أضف كتاب",
+        "isAccessiblityEnabled":true
+    },
+    "UserProfileButton": {
+        "hint":"انقر نقرًا مزدوجًا للتنقل عبر شاشة ملف تعريف المستخدم",
+        "label":"ملف تعريفي للمستخدم",
+        "isAccessiblityEnabled":true
+    },
+    "BookSortingButton": {
+        "hint":"انقر نقرًا مزدوجًا لخيار فرز الكتب",
+        "label":"فرز الخيار",
+        "isAccessiblityEnabled":true
+    },
+    "SortingByCategoryButton": {
+        "hint":"انقر نقرًا مزدوجًا للترتيب حسب الفئة",
+        "label":"تصنيف التصنيف",
+        "isAccessiblityEnabled":true
+    },
+    "SortingByBookButton": {
+        "hint":"انقر نقرًا مزدوجًا للترتيب حسب الكتب",
+        "label":"فرز الكتاب",
+        "isAccessiblityEnabled":true
+    },
+    "SortingButton": {
+        "hint":"انقر نقرًا مزدوجًا لتطبيق هذا الترتيب",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "SortingButtonSelected": {
+        "hint":"",
+        "label":"المحدد %@",
+        "isAccessiblityEnabled":true
+    },
+    "KitabooLogo": {
+        "hint":"",
+        "label":"%@ Kitaboo",
+        "isAccessiblityEnabled":true
+    },
+    "CloseButton": {
+        "hint":"انقر نقرًا مزدوجًا على إغلاق المجموعة",
+        "label":"يغلق",
+        "isAccessiblityEnabled":true
+    },
+    "DeleteAllButton": {
+        "hint":"انقر نقرًا مزدوجًا على هذا لحذف جميع الكتب",
+        "label":"حذف الكل",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadAllButton": {
+        "hint":"انقر نقرًا مزدوجًا على هذا لتنزيل جميع الكتب",
+        "label":"تحميل الكل",
+        "isAccessiblityEnabled":true
+    },
+    "ViewAllButton": {
+        "hint":"انقر نقرًا مزدوجًا على هذا لعرض جميع الكتب",
+        "label":"مشاهدة الكل",
+        "isAccessiblityEnabled":true
+    },
+    "InfoButton": {
+        "hint":"انقر نقرًا مزدوجًا للحصول على معلومات الكتاب",
+        "label":"معلومات الكتاب",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadButton": {
+        "hint":"انقر نقرًا مزدوجًا لتنزيل الكتاب",
+        "label":"تنزيل الكتاب",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadingdButton": {
+        "hint":"",
+        "label":"تنزيل الكتاب",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadUnzippingButton": {
+        "hint":"",
+        "label":"تحميل كتاب",
+        "isAccessiblityEnabled":true
+    },
+    "PauseDownloadButton": {
+        "hint":"انقر نقرًا مزدوجًا لاستئناف تنزيل الكتاب",
+        "label":"إيقاف التنزيل مؤقتًا",
+        "isAccessiblityEnabled":true
+    },
+    "DeleteDownloadedBookButton": {
+        "hint":"انقر نقرًا مزدوجًا لحذف الكتاب الذي تم تنزيله",
+        "label":"حذف الكتاب",
+        "isAccessiblityEnabled":true
+    },
+    "UpdateBookButton": {
+        "hint":"انقر نقرًا مزدوجًا لتحديث الكتاب الذي تم تنزيله",
+        "label":"تحديث الكتاب",
+        "isAccessiblityEnabled":true
+    },
+    "FavouriteButton": {
+        "hint":"انقر نقرًا مزدوجًا لتعيين الكتاب كمفضل",
+        "label":"غير فاسد",
+        "isAccessiblityEnabled":true
+    },
+    "FavouriteButtonSelected": {
+        "hint":"انقر نقرًا مزدوجًا لتعيين الكتاب باعتباره ليس المفضل",
+        "label":"المفضل",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsButton": {
+        "hint":"انقر نقرًا مزدوجًا لمزيد من الخيارات",
+        "label":"المزيد من الخيارات",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsInfoButton": {
+        "hint":"انقر نقرًا مزدوجًا للحصول على معلومات الكتاب",
+        "label":"حول هذا الكتاب",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsAnalyticsButton": {
+        "hint":"انقر نقرًا مزدوجًا لتحليلات الكتاب",
+        "label":"تحليلات الكتاب",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsDeleteButton": {
+        "hint":"انقر نقرًا مزدوجًا لحذف الكتاب",
+        "label":"حذف الكتاب",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsUpdateButton": {
+        "hint":"انقر نقرًا مزدوجًا للحصول على تحديثات الكتاب",
+        "label":"تحديث الكتاب",
+        "isAccessiblityEnabled":true
+    },
+    "BackButton": {
+        "hint":"",
+        "label":"عودة",
+        "isAccessiblityEnabled":true
+    },
+    "SearchIcon": {
+        "hint":"",
+        "label":"رمز البحث",
+        "isAccessiblityEnabled":true
+    },
+    "AnalyticsSelectStudentButton": {
+        "hint":"",
+        "label":"حدد الطالب",
+        "isAccessiblityEnabled":true
+    },
+    "AnalyticsItem": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "BookShelfTableCollectionContainerView": {
+        "hint":"",
+        "label":"تجاهل النافذة المنبثقة",
+        "isAccessiblityEnabled":true
+    },
+    "ManageActiveSessionLogoutButton": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "AnalyticsSelectStudentCell": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "CollectionBookCoverImage": {
+        "hint":"انقر نقرًا مزدوجًا لمشاهدة جميع كتب هذه المجموعة.",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "NotificationsButton": {
+        "hint":"انقر نقرًا مزدوجًا لرؤية الإشعارات",
+        "label":"إشعارات",
+        "isAccessiblityEnabled":true
+    },
+    "NotificationsDeleteButton": {
+        "hint":"",
+        "label":"حذف",
+        "isAccessiblityEnabled":true
+    }
+}

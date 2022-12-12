@@ -1,0 +1,1500 @@
+{
+    "responseCode": 200,
+    "responseMsg": "OK",
+    "timestamp": "2019-01-25 16:47:33.526",
+    "category": {
+        "name": "Demo",
+        "bookList": [
+            {
+                "book": {
+                    "id": 13994328,
+                    "isbn": "9780716645493",
+                    "title": "A Big Month",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16040.png",
+                    "pages": 14,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "A Big Month",
+                    "description": "A Big Month",
+                    "category": "Demo",
+                    "bookCode": "30022",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16040",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138493",
+                    "collectionTitle": "A Big Month",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16040.png",
+                    "bookId": "16040",
+                    "assignedOn": "2018-01-05 15:44:38",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "Hurix",
+                        "Series Tit": "Welcome to",
+                        "Pages": "12",
+                        "Copyright Year": "2017",
+                        "Lexile Measure": "890",
+                        "AR Level": "7",
+                        "Interest Level": "4",
+                        "Copyright": "2015",
+                        "Series Title": "Rakesh",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994319,
+                    "isbn": "9780716645456",
+                    "title": "A Birthday Surprise",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16031.png",
+                    "pages": 14,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "A Birthday Surprise",
+                    "description": "A Birthday Surprise",
+                    "category": "Demo",
+                    "bookCode": "30015",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16031",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138484",
+                    "collectionTitle": "A Birthday Surprise",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16031.png",
+                    "bookId": "16031",
+                    "assignedOn": "2018-01-05 15:40:13",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades K-2",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994332,
+                    "isbn": "9780716645343",
+                    "title": "A Loose Tooth",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16044.png",
+                    "pages": 14,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "A Loose Tooth",
+                    "description": "A Loose Tooth",
+                    "category": "Demo",
+                    "bookCode": "30025",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16044",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138497",
+                    "collectionTitle": "A Loose Tooth",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16044.png",
+                    "bookId": "16044",
+                    "assignedOn": "2018-01-05 15:46:19",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades K-2",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994329,
+                    "isbn": "9780716645552",
+                    "title": "A Perfect Pet",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16041.png",
+                    "pages": 18,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "A Perfect Pet",
+                    "description": "A Perfect Pet",
+                    "category": "Demo",
+                    "bookCode": "30023",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16041",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138494",
+                    "collectionTitle": "A Perfect Pet",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16041.png",
+                    "bookId": "16041",
+                    "assignedOn": "2018-01-05 15:45:11",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades K-2",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994343,
+                    "isbn": "9780716645468",
+                    "title": "All About Scarecrows",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16055.png",
+                    "pages": 14,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "All About Scarecrows",
+                    "description": "All About Scarecrows",
+                    "category": "Demo",
+                    "bookCode": "30035",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16055",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138508",
+                    "collectionTitle": "All About Scarecrows",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16055.png",
+                    "bookId": "16055",
+                    "assignedOn": "2018-01-05 15:55:09",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades K-2",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994309,
+                    "isbn": "2110201454851",
+                    "title": "ANIMAL LIVES - Birds",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16021.png",
+                    "pages": 48,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "ANIMAL LIVES - Birds",
+                    "description": "ANIMAL LIVES - Birds",
+                    "category": "Demo",
+                    "bookCode": "29954",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16021",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138474",
+                    "collectionTitle": "ANIMAL LIVES - Birds",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16021.png",
+                    "bookId": "16021",
+                    "assignedOn": "2018-01-05 15:34:03",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Interest Level": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994340,
+                    "isbn": "9780716645357",
+                    "title": "Aunt Nikki's Tale",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16052.png",
+                    "pages": 14,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Aunt Nikki's Tale",
+                    "description": "Aunt Nikki's Tale",
+                    "category": "Demo",
+                    "bookCode": "30032",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16052",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138505",
+                    "collectionTitle": "Aunt Nikki's Tale",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16052.png",
+                    "bookId": "16052",
+                    "assignedOn": "2018-01-05 15:53:38",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Interest Level": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 169079590,
+                    "isbn": "9780716645382",
+                    "title": "Bikes",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16062.png",
+                    "pages": 14,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Bikes",
+                    "description": "Bikes",
+                    "category": "Demo",
+                    "bookCode": "30040",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16062",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "GROUP_COLLECTION",
+                    "collectionID": "139932",
+                    "collectionTitle": "maths",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16045.png?timestamp=1524835815",
+                    "bookId": "16062",
+                    "assignedOn": "2018-04-27 19:18:03",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994336,
+                    "isbn": "9780716645201",
+                    "title": "Can Taffy Fly?",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16048.png",
+                    "pages": 10,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Can Taffy Fly?",
+                    "description": "Can Taffy Fly?",
+                    "category": "Demo",
+                    "bookCode": "30028",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16048",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138501",
+                    "collectionTitle": "Can Taffy Fly?",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16048.png",
+                    "bookId": "16048",
+                    "assignedOn": "2018-01-05 15:51:07",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades 3-5",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994339,
+                    "isbn": "9780716645568",
+                    "title": "Caring for a Pet",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16051.png",
+                    "pages": 18,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Caring for a Pet",
+                    "description": "Caring for a Pet",
+                    "category": "Demo",
+                    "bookCode": "30031",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16051",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138504",
+                    "collectionTitle": "Caring for a Pet",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16051.png",
+                    "bookId": "16051",
+                    "assignedOn": "2018-01-05 15:53:06",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades 3-5",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994342,
+                    "isbn": "9780716645585",
+                    "title": "Fooled You!",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16054.png",
+                    "pages": 18,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Fooled You!",
+                    "description": "Fooled You!",
+                    "category": "Demo",
+                    "bookCode": "30033",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16054",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138507",
+                    "collectionTitle": "Fooled You!",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16054.png",
+                    "bookId": "16054",
+                    "assignedOn": "2018-01-05 15:54:36",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades 3-5",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994303,
+                    "isbn": "6859635423184",
+                    "title": "Force and Motion",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16015.png",
+                    "pages": 1,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Force and Motion",
+                    "description": "Force and Motion",
+                    "category": "Demo",
+                    "bookCode": "29952",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16015",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138468",
+                    "collectionTitle": "Force and Motion",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16015.png",
+                    "bookId": "16015",
+                    "assignedOn": "2018-01-05 15:32:28",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Interest Level": "Grades 6-8"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994307,
+                    "isbn": "2110201454582",
+                    "title": "Force and Motion",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16019.png",
+                    "pages": 32,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Force and Motion",
+                    "description": "Force and Motion",
+                    "category": "Demo",
+                    "bookCode": "29953",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16019",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138472",
+                    "collectionTitle": "Force and Motion",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16019.png",
+                    "bookId": "16019",
+                    "assignedOn": "2018-01-05 15:33:35",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Interest Level": "Grades 6-8"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994333,
+                    "isbn": "9780716645512",
+                    "title": "Keeping in Touch",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16045.png",
+                    "pages": 18,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Keeping in Touch",
+                    "description": "Keeping in Touch",
+                    "category": "Demo",
+                    "bookCode": "30026",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16045",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138498",
+                    "collectionTitle": "Keeping in Touch",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16045.png",
+                    "bookId": "16045",
+                    "assignedOn": "2018-01-05 15:50:28",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Interest Level": "Grades 6-8"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994338,
+                    "isbn": "9780716645538",
+                    "title": "Letters, Letters!",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16050.png",
+                    "pages": 18,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Letters, Letters!",
+                    "description": "Letters, Letters!",
+                    "category": "Demo",
+                    "bookCode": "30030",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16050",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138503",
+                    "collectionTitle": "Letters, Letters!",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16050.png",
+                    "bookId": "16050",
+                    "assignedOn": "2018-01-05 15:52:35",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades 6-8",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994323,
+                    "isbn": "9780716645329",
+                    "title": "Sam Starts School",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16035.png",
+                    "pages": 14,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Sam Starts School",
+                    "description": "Sam Starts School",
+                    "category": "Demo",
+                    "bookCode": "30019",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16035",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138488",
+                    "collectionTitle": "Sam Starts School",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16035.png",
+                    "bookId": "16035",
+                    "assignedOn": "2018-01-05 15:42:20",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Interest Level": "Grades 6-8"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994325,
+                    "isbn": "9780716645336",
+                    "title": "Say Good Night, Lizzy",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16037.png",
+                    "pages": 14,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Say Good Night, Lizzy",
+                    "description": "Say Good Night, Lizzy",
+                    "category": "Demo",
+                    "bookCode": "30020",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16037",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "9.2,#01a7fc0"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138490",
+                    "collectionTitle": "Say Good Night, Lizzy",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16037.png",
+                    "bookId": "16037",
+                    "assignedOn": "2018-01-05 15:43:26",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades 6-8",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994330,
+                    "isbn": "9780716645194",
+                    "title": "Seasons",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16042.png",
+                    "pages": 10,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Seasons",
+                    "description": "Seasons",
+                    "category": "Demo",
+                    "bookCode": "30024",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16042",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138495",
+                    "collectionTitle": "Seasons",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16042.png",
+                    "bookId": "16042",
+                    "assignedOn": "2018-01-05 15:45:45",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "direction": "LTR",
+                        "locale": "en_US",
+                        "max-highlight": "100",
+                        "showFolio": "false",
+                        "max-selectable-words": "50"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994344,
+                    "isbn": "9780716645286",
+                    "title": "Taffy Finds Her Home",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16056.png",
+                    "pages": 10,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Taffy Finds Her Home",
+                    "description": "Taffy Finds Her Home",
+                    "category": "Demo",
+                    "bookCode": "30034",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16056",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138509",
+                    "collectionTitle": "Taffy Finds Her Home",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16056.png",
+                    "bookId": "16056",
+                    "assignedOn": "2018-01-05 15:55:42",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades 6-8",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994326,
+                    "isbn": "9780716645265",
+                    "title": "The Bus Ride",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16038.png",
+                    "pages": 10,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "The Bus Ride",
+                    "description": "The Bus Ride",
+                    "category": "Demo",
+                    "bookCode": "30021",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16038",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138491",
+                    "collectionTitle": "The Bus Ride",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16038.png",
+                    "bookId": "16038",
+                    "assignedOn": "2018-01-05 15:44:01",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades 6-8",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994337,
+                    "isbn": "9780716645637",
+                    "title": "The Foods You Eat",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16049.png",
+                    "pages": 14,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "The Foods You Eat",
+                    "description": "The Foods You Eat",
+                    "category": "Demo",
+                    "bookCode": "30199",
+                    "version": "2.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16049",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138502",
+                    "collectionTitle": "The Foods You Eat",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16049.png",
+                    "bookId": "16049",
+                    "assignedOn": "2018-01-05 15:51:39",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades 9-12",
+                        "Copyright": "2015",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994310,
+                    "isbn": "9780716645450",
+                    "title": "The Garden Riddle",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16022.png",
+                    "pages": 1,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "The Garden Riddle",
+                    "description": "The Garden Riddle",
+                    "category": "Demo",
+                    "bookCode": "29957",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16022",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138475",
+                    "collectionTitle": "The Garden Riddle",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16022.png",
+                    "bookId": "16022",
+                    "assignedOn": "2018-01-05 15:34:43",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades 9-12",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994321,
+                    "isbn": "9780716645479",
+                    "title": "Tons of Tomatoes",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16033.png",
+                    "pages": 14,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Tons of Tomatoes",
+                    "description": "Tons of Tomatoes",
+                    "category": "Demo",
+                    "bookCode": "30017",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16033",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "undefined,undefined"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138486",
+                    "collectionTitle": "Tons of Tomatoes",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16033.png",
+                    "bookId": "16033",
+                    "assignedOn": "2018-01-05 15:41:16",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Copyright Year": "2020",
+                        "Lexile Measure": "200000",
+                        "AR Level": "john cena",
+                        "Interest Level": "Grades K-2",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994318,
+                    "isbn": "9780716645165",
+                    "title": "Trek and His Friends",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16030.png",
+                    "pages": 10,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Trek and His Friends",
+                    "description": "Trek and His Friends",
+                    "category": "Demo",
+                    "bookCode": "30012",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16030",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138483",
+                    "collectionTitle": "Trek and His Friends",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16030.png",
+                    "bookId": "16030",
+                    "assignedOn": "2018-01-05 15:37:02",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades 9-12",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994322,
+                    "isbn": "9780716645199",
+                    "title": "Trek Can Fly",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16034.png",
+                    "pages": 10,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Trek Can Fly",
+                    "description": "Trek Can Fly",
+                    "category": "Demo",
+                    "bookCode": "30018",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16034",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138487",
+                    "collectionTitle": "Trek Can Fly",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16034.png",
+                    "bookId": "16034",
+                    "assignedOn": "2018-01-05 15:41:48",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades 9-12",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994317,
+                    "isbn": "9780716645176",
+                    "title": "Trek Meets Taffy",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16029.png",
+                    "pages": 10,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Trek Meets Taffy",
+                    "description": "Trek Meets Taffy",
+                    "category": "Demo",
+                    "bookCode": "30013",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16029",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138482",
+                    "collectionTitle": "Trek Meets Taffy",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16029.png",
+                    "bookId": "16029",
+                    "assignedOn": "2018-01-05 15:36:29",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Pages": "14",
+                        "Interest Level": "Grades 9-12",
+                        "Copyright": "2015",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994320,
+                    "isbn": "9780716645547",
+                    "title": "Working It Out",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16032.png",
+                    "pages": 18,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "Working It Out",
+                    "description": "Working It Out",
+                    "category": "Demo",
+                    "bookCode": "30014",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16032",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138485",
+                    "collectionTitle": "Working It Out",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16032.png",
+                    "bookId": "16032",
+                    "assignedOn": "2018-01-05 15:40:46",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades 9-12",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 13994305,
+                    "isbn": "7789456265321",
+                    "title": "World War II in the Pacific",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16017.png",
+                    "pages": 1,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        }
+                    ],
+                    "keywords": "World War II in the Pacific",
+                    "description": "World War II in the Pacific",
+                    "category": "Demo",
+                    "bookCode": "29951",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16017",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "DEFAULT_COLLECTION",
+                    "collectionID": "138470",
+                    "collectionTitle": "World War II in the Pacific",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16017.png",
+                    "bookId": "16017",
+                    "assignedOn": "2018-01-05 15:33:03",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Interest Level": "Grades 9-12"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            }
+        ]
+    }
+}

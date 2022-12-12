@@ -1,0 +1,202 @@
+{
+    "CategoryTitle": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "BookCoverImageWhenBookIsDownloaded": {
+        "hint":"Dobbelttrykk for å åpne boken",
+        "label":"Nedlastet %@",
+        "isAccessiblityEnabled":true
+    },
+    "BookCoverImageWhenBookIsNotDownloaded": {
+        "hint":"Dobbeltklikk for å åpne Mer info",
+        "label":"Ikke lastet ned %@",
+        "isAccessiblityEnabled":true
+    },
+    "SeacrhBookButton": {
+        "hint":"Dobbelttrykk for å søke etter bøker",
+        "label":"Søk",
+        "isAccessiblityEnabled":true
+    },
+    "AddBookButton": {
+        "hint":"Dobbelttrykk for å legge til bok",
+        "label":"Legg til bok",
+        "isAccessiblityEnabled":true
+    },
+    "UserProfileButton": {
+        "hint":"Dobbeltklikk for å navigere i brukerprofilskjermen",
+        "label":"Brukerprofil",
+        "isAccessiblityEnabled":true
+    },
+    "BookSortingButton": {
+        "hint":"Dobbelttrykk for å sortere bøker",
+        "label":"Sorteringsalternativ",
+        "isAccessiblityEnabled":true
+    },
+    "SortingByCategoryButton": {
+        "hint":"Dobbelttrykk for å sortere etter kategori",
+        "label":"Kategori Sorter",
+        "isAccessiblityEnabled":true
+    },
+    "SortingByBookButton": {
+        "hint":"Dobbelttrykk for å sortere etter bøker",
+        "label":"Book Sort",
+        "isAccessiblityEnabled":true
+    },
+    "SortingButton": {
+        "hint":"Dobbeltklikk for å bruke denne sorteringen",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "SortingButtonSelected": {
+        "hint":"",
+        "label":"Valgt %@",
+        "isAccessiblityEnabled":true
+    },
+    "KitabooLogo": {
+        "hint":"",
+        "label":"%@ Kitaboo",
+        "isAccessiblityEnabled":true
+    },
+    "CloseButton": {
+        "hint":"Dobbeltklikk på Lukk samling",
+        "label":"Lukk",
+        "isAccessiblityEnabled":true
+    },
+    "DeleteAllButton": {
+        "hint":"Dobbeltklikk på dette for Slett alle bøker",
+        "label":"Slette alle",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadAllButton": {
+        "hint":"Dobbeltklikk på dette for å laste ned alle bøker",
+        "label":"Last ned alle",
+        "isAccessiblityEnabled":true
+    },
+    "ViewAllButton": {
+        "hint":"Dobbeltklikk på dette for å se alle bøker",
+        "label":"Se alt",
+        "isAccessiblityEnabled":true
+    },
+    "InfoButton": {
+        "hint":"Dobbelttrykk for å få informasjon om boken",
+        "label":"Bokinfo",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadButton": {
+        "hint":"Dobbelttrykk for nedlastingsbok",
+        "label":"Boknedlasting",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadingdButton": {
+        "hint":"",
+        "label":"Nedlasting av bok",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadUnzippingButton": {
+        "hint":"",
+        "label":"Bok lasting",
+        "isAccessiblityEnabled":true
+    },
+    "PauseDownloadButton": {
+        "hint":"Dobbelttrykk for å laste ned boken for CV",
+        "label":"Stopp nedlastingen",
+        "isAccessiblityEnabled":true
+    },
+    "DeleteDownloadedBookButton": {
+        "hint":"Dobbelttrykk for å slette nedlastet bok",
+        "label":"Book Delete",
+        "isAccessiblityEnabled":true
+    },
+    "UpdateBookButton": {
+        "hint":"Dobbelttrykk for å oppdatere nedlastet bok",
+        "label":"Bokoppdatering",
+        "isAccessiblityEnabled":true
+    },
+    "FavouriteButton": {
+        "hint":"Dobbelttrykk for å sette boken som favoritt",
+        "label":"Unfavourite",
+        "isAccessiblityEnabled":true
+    },
+    "FavouriteButtonSelected": {
+        "hint":"Dobbelttrykk for boken som ikke favoritt",
+        "label":"Favoritt",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsButton": {
+        "hint":"Dobbeltklikk for flere alternativer",
+        "label":"Flere valg",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsInfoButton": {
+        "hint":"Dobbelttrykk for å få informasjon om boken",
+        "label":"Om denne boka",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsAnalyticsButton": {
+        "hint":"Dobbelttrykk for bokanalyse",
+        "label":"Book Analytics",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsDeleteButton": {
+        "hint":"Dobbelttrykk for å slette boken",
+        "label":"Book Delete",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsUpdateButton": {
+        "hint":"Dobbelttrykk for bokoppdateringer",
+        "label":"Bokoppdatering",
+        "isAccessiblityEnabled":true
+    },
+    "BackButton": {
+        "hint":"",
+        "label":"Tilbake",
+        "isAccessiblityEnabled":true
+    },
+    "SearchIcon": {
+        "hint":"",
+        "label":"Søkeikon",
+        "isAccessiblityEnabled":true
+    },
+    "AnalyticsSelectStudentButton": {
+        "hint":"",
+        "label":"Velg Student",
+        "isAccessiblityEnabled":true
+    },
+    "AnalyticsItem": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "BookShelfTableCollectionContainerView": {
+        "hint":"",
+        "label":"Avvis popup",
+        "isAccessiblityEnabled":true
+    },
+    "ManageActiveSessionLogoutButton": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "AnalyticsSelectStudentCell": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "CollectionBookCoverImage": {
+        "hint":"Presiona dos veces para ver todos los libros de esta colección.",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "NotificationsButton": {
+        "hint":"Dobbelttrykk for å se varsler",
+        "label":"Varsler",
+        "isAccessiblityEnabled":true
+    },
+    "NotificationsDeleteButton": {
+        "hint":"",
+        "label":"Slett",
+        "isAccessiblityEnabled":true
+    }
+}

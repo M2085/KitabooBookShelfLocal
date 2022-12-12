@@ -1,0 +1,202 @@
+{
+    "CategoryTitle": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "BookCoverImageWhenBookIsDownloaded": {
+        "hint":"Toca dos veces para abrir el libro",
+        "label":"Descargado %@",
+        "isAccessiblityEnabled":true
+    },
+    "BookCoverImageWhenBookIsNotDownloaded": {
+        "hint":"Toque doble para abrir más información",
+        "label":"No descargado %@",
+        "isAccessiblityEnabled":true
+    },
+    "SeacrhBookButton": {
+        "hint":"Presiona dos veces para buscar libros",
+        "label":"Buscar",
+        "isAccessiblityEnabled":true
+    },
+    "AddBookButton": {
+        "hint":"Presiona dos veces para agregar un libro",
+        "label":"Agregar libro",
+        "isAccessiblityEnabled":true
+    },
+    "UserProfileButton": {
+        "hint":"Toca dos veces para navegar por la pantalla de perfil de usuario",
+        "label":"Perfil del usuario",
+        "isAccessiblityEnabled":true
+    },
+    "BookSortingButton": {
+        "hint":"Toca dos veces para ordenar los libros.",
+        "label":"Opción de clasificación",
+        "isAccessiblityEnabled":true
+    },
+    "SortingByCategoryButton": {
+        "hint":"Toca dos veces para ordenar por categoría",
+        "label":"Ordenar por categoría",
+        "isAccessiblityEnabled":true
+    },
+    "SortingByBookButton": {
+        "hint":"Toca dos veces para ordenar por libros",
+        "label":"Ordenar libro",
+        "isAccessiblityEnabled":true
+    },
+    "SortingButton": {
+        "hint":"Toca dos veces para aplicar esta clasificación",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "SortingButtonSelected": {
+        "hint":"",
+        "label":"Seleccionado %@",
+        "isAccessiblityEnabled":true
+    },
+    "KitabooLogo": {
+        "hint":"",
+        "label":"%@ Kitaboo",
+        "isAccessiblityEnabled":true
+    },
+    "CloseButton": {
+        "hint":"Toca dos veces en Cerrar colección",
+        "label":"Cerca",
+        "isAccessiblityEnabled":true
+    },
+    "DeleteAllButton": {
+        "hint":"Toca dos veces esto para eliminar todos los libros.",
+        "label":"Eliminar todos",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadAllButton": {
+        "hint":"Toca dos veces esto para descargar todos los libros",
+        "label":"Descargar todo",
+        "isAccessiblityEnabled":true
+    },
+    "ViewAllButton": {
+        "hint":"Toca dos veces esto para ver todos los libros",
+        "label":"Ver todo",
+        "isAccessiblityEnabled":true
+    },
+    "InfoButton": {
+        "hint":"Toca dos veces para obtener información sobre el libro",
+        "label":"Información del libro",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadButton": {
+        "hint":"Toca dos veces para descargar el libro",
+        "label":"Descargar libro",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadingdButton": {
+        "hint":"",
+        "label":"Descarga de libros",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadUnzippingButton": {
+        "hint":"",
+        "label":"Cargando libro",
+        "isAccessiblityEnabled":true
+    },
+    "PauseDownloadButton": {
+        "hint":"Toca dos veces para descargar el libro de currículum",
+        "label":"Pausar descarga",
+        "isAccessiblityEnabled":true
+    },
+    "DeleteDownloadedBookButton": {
+        "hint":"Toca dos veces para eliminar el libro descargado",
+        "label":"Borrar libro",
+        "isAccessiblityEnabled":true
+    },
+    "UpdateBookButton": {
+        "hint":"Toca dos veces para actualizar el libro descargado",
+        "label":"Actualización del libro",
+        "isAccessiblityEnabled":true
+    },
+    "FavouriteButton": {
+        "hint":"Toca dos veces para establecer el libro como favorito",
+        "label":"Desfavorecimiento",
+        "isAccessiblityEnabled":true
+    },
+    "FavouriteButtonSelected": {
+        "hint":"Toca dos veces para establecer el libro como no favorito",
+        "label":"Favorito",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsButton": {
+        "hint":"Toca dos veces para ver más opciones",
+        "label":"Mas opciones",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsInfoButton": {
+        "hint":"Toca dos veces para obtener información sobre el libro",
+        "label":"Sobre este libro",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsAnalyticsButton": {
+        "hint":"Toca dos veces para analizar los libros",
+        "label":"Análisis de libros",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsDeleteButton": {
+        "hint":"Toca dos veces para eliminar el libro",
+        "label":"Borrar libro",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsUpdateButton": {
+        "hint":"Toca dos veces para obtener actualizaciones de libros",
+        "label":"Actualización del libro",
+        "isAccessiblityEnabled":true
+    },
+    "BackButton": {
+        "hint":"",
+        "label":"atrás",
+        "isAccessiblityEnabled":true
+    },
+    "SearchIcon": {
+        "hint":"",
+        "label":"Icono de búsqueda",
+        "isAccessiblityEnabled":true
+    },
+    "AnalyticsSelectStudentButton": {
+        "hint":"",
+        "label":"Seleccionar estudiante",
+        "isAccessiblityEnabled":true
+    },
+    "AnalyticsItem": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "BookShelfTableCollectionContainerView": {
+        "hint":"",
+        "label":"Descartar ventana emergente",
+        "isAccessiblityEnabled":true
+    },
+    "ManageActiveSessionLogoutButton": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "AnalyticsSelectStudentCell": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "CollectionBookCoverImage": {
+        "hint":"Double tap to see all the books of this collection.",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "NotificationsButton": {
+        "hint":"Toca dos veces para ver las notificaciones",
+        "label":"Notificaciones",
+        "isAccessiblityEnabled":true
+    },
+    "NotificationsDeleteButton": {
+        "hint":"",
+        "label":"Borrar",
+        "isAccessiblityEnabled":true
+    }
+}

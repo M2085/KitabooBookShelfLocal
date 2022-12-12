@@ -1,0 +1,128 @@
+{
+    "responseCode": 200,
+    "responseMsg": "OK",
+    "timestamp": "2019-01-25 16:51:45.984",
+    "category": {
+        "name": "Demo",
+        "bookList": [
+            {
+                "book": {
+                    "id": 169079599,
+                    "isbn": "9780716645493",
+                    "title": "A Big Month",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16040.png",
+                    "pages": 14,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        },
+                        {
+                            "name": "HTML5"
+                        }
+                    ],
+                    "keywords": "A Big Month",
+                    "description": "A Big Month",
+                    "category": "Demo",
+                    "bookCode": "30022",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16040",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER",
+                            "suspendData": "0.1,#000000"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "GROUP_COLLECTION",
+                    "collectionID": "139932",
+                    "collectionTitle": "maths",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16045.png?timestamp=1524835815",
+                    "bookId": "16040",
+                    "assignedOn": "2018-04-27 19:18:03",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "Hurix",
+                        "Series Tit": "Welcome to",
+                        "Pages": "12",
+                        "Copyright Year": "2017",
+                        "Lexile Measure": "890",
+                        "AR Level": "7",
+                        "Interest Level": "4",
+                        "Copyright": "2015",
+                        "Series Title": "Rakesh",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            },
+            {
+                "book": {
+                    "id": 169079606,
+                    "isbn": "9780716645456",
+                    "title": "A Birthday Surprise",
+                    "thumbURL": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16031.png",
+                    "pages": 14,
+                    "author": "Hurix",
+                    "formats": [
+                        {
+                            "name": "PC"
+                        },
+                        {
+                            "name": "HTML5"
+                        }
+                    ],
+                    "keywords": "A Birthday Surprise",
+                    "description": "A Birthday Surprise",
+                    "category": "Demo",
+                    "bookCode": "30015",
+                    "version": "1.0",
+                    "type": 1,
+                    "hasPrint": false,
+                    "hasPreview": false,
+                    "ebookID": "16031",
+                    "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                    "testMode": "N",
+                    "classList": [
+                        {
+                            "classID": "1",
+                            "roleID": "2",
+                            "roleName": "LEARNER"
+                        }
+                    ],
+                    "assetType": "BOOK",
+                    "collectionType": "GROUP_COLLECTION",
+                    "collectionID": "139932",
+                    "collectionTitle": "maths",
+                    "collectionThumbnail": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/thumbnails/16045.png?timestamp=1524835815",
+                    "bookId": "16031",
+                    "assignedOn": "2018-04-27 19:18:03",
+                    "reflow": "N",
+                    "bookActive": false,
+                    "clientBookMetaData": {
+                        "Publisher": "World Book",
+                        "Series Tit": "Welcome to",
+                        "Pages": "14",
+                        "Interest Level": "Grades K-2",
+                        "Copyright": "2015",
+                        "Series Title": "Welcome from",
+                        "Interest L": "Grades K-2"
+                    },
+                    "favourite": false
+                },
+                "classAssociation": true,
+                "encryption": false
+            }
+        ]
+    }
+}

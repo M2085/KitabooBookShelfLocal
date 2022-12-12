@@ -1,0 +1,11 @@
+framework module KitabooBookShelfFramework {
+  umbrella header "KitabooBookShelfFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module KitabooBookShelfFramework.Swift {
+  header "KitabooBookShelfFramework-Swift.h"
+  requires objc
+}

@@ -1,0 +1,202 @@
+{
+    "CategoryTitle": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "BookCoverImageWhenBookIsDownloaded": {
+        "hint":"Double tap to open book",
+        "label":"Downloaded %@",
+        "isAccessiblityEnabled":true
+    },
+    "BookCoverImageWhenBookIsNotDownloaded": {
+        "hint":"Double tap to open More Info",
+        "label":"Not Downloaded %@",
+        "isAccessiblityEnabled":true
+    },
+    "SeacrhBookButton": {
+        "hint":"Double tap to search for books",
+        "label":"Search",
+        "isAccessiblityEnabled":true
+    },
+    "AddBookButton": {
+        "hint":"Double tap to add book",
+        "label":"Add Book",
+        "isAccessiblityEnabled":true
+    },
+    "UserProfileButton": {
+        "hint":"Double tap to navigate user profile screen",
+        "label":"User Profile",
+        "isAccessiblityEnabled":true
+    },
+    "BookSortingButton": {
+        "hint":"Double tap for sorting books option",
+        "label":"Sort Option",
+        "isAccessiblityEnabled":true
+    },
+    "SortingByCategoryButton": {
+        "hint":"Double tap for sort by category",
+        "label":"Category Sort",
+        "isAccessiblityEnabled":true
+    },
+    "SortingByBookButton": {
+        "hint":"Double tap for sort by books",
+        "label":"Book Sort",
+        "isAccessiblityEnabled":true
+    },
+    "SortingButton": {
+        "hint":"Double tap to apply this sorting",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "SortingButtonSelected": {
+        "hint":"",
+        "label":"Selected %@",
+        "isAccessiblityEnabled":true
+    },
+    "KitabooLogo": {
+        "hint":"",
+        "label":"%@ Kitaboo",
+        "isAccessiblityEnabled":true
+    },
+    "CloseButton": {
+        "hint":"Double tap on Close Collection",
+        "label":"Close",
+        "isAccessiblityEnabled":true
+    },
+    "DeleteAllButton": {
+        "hint":"Double tap on this for Delete all books",
+        "label":"Delete All",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadAllButton": {
+        "hint":"Double tap on this for download all Books",
+        "label":"Download All",
+        "isAccessiblityEnabled":true
+    },
+    "ViewAllButton": {
+        "hint":"Double tap on this for view all Books",
+        "label":"View All",
+        "isAccessiblityEnabled":true
+    },
+    "InfoButton": {
+        "hint":"Double tap for book information",
+        "label":"Book Info",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadButton": {
+        "hint":"Double tap for download book",
+        "label":"Book Download",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadingdButton": {
+        "hint":"",
+        "label":"Book Downloading",
+        "isAccessiblityEnabled":true
+    },
+    "DownloadUnzippingButton": {
+        "hint":"",
+        "label":"Book Loading",
+        "isAccessiblityEnabled":true
+    },
+    "PauseDownloadButton": {
+        "hint":"Double tap for resume download book",
+        "label":"Pause Download",
+        "isAccessiblityEnabled":true
+    },
+    "DeleteDownloadedBookButton": {
+        "hint":"Double tap for delete downloaded book",
+        "label":"Book Delete",
+        "isAccessiblityEnabled":true
+    },
+    "UpdateBookButton": {
+        "hint":"Double tap for update downloaded book",
+        "label":"Book Update",
+        "isAccessiblityEnabled":true
+    },
+    "FavouriteButton": {
+        "hint":"Double tap for set book as favourite",
+        "label":"Unfavourite",
+        "isAccessiblityEnabled":true
+    },
+    "FavouriteButtonSelected": {
+        "hint":"Double tap for set book as not favourite",
+        "label":"Favourite",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsButton": {
+        "hint":"Double tap for more options",
+        "label":"More Options",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsInfoButton": {
+        "hint":"Double tap for book information",
+        "label":"About This Book",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsAnalyticsButton": {
+        "hint":"Double tap for book analytics",
+        "label":"Book Analytics",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsDeleteButton": {
+        "hint":"Double tap for book delete",
+        "label":"Book Delete",
+        "isAccessiblityEnabled":true
+    },
+    "MoreOptionsUpdateButton": {
+        "hint":"Double tap for book updates",
+        "label":"Book Update",
+        "isAccessiblityEnabled":true
+    },
+    "BackButton": {
+        "hint":"",
+        "label":"Back",
+        "isAccessiblityEnabled":true
+    },
+    "SearchIcon": {
+        "hint":"",
+        "label":"Search Icon",
+        "isAccessiblityEnabled":true
+    },
+    "AnalyticsSelectStudentButton": {
+        "hint":"",
+        "label":"Select Student",
+        "isAccessiblityEnabled":true
+    },
+    "AnalyticsItem": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "BookShelfTableCollectionContainerView": {
+        "hint":"",
+        "label":"Dismiss popup",
+        "isAccessiblityEnabled":true
+    },
+    "ManageActiveSessionLogoutButton": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "AnalyticsSelectStudentCell": {
+        "hint":"",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "CollectionBookCoverImage": {
+        "hint":"Double tap to see all the books of this collection.",
+        "label":"%@",
+        "isAccessiblityEnabled":true
+    },
+    "NotificationsButton": {
+        "hint":"Double tap to see notifications",
+        "label":"Notifications",
+        "isAccessiblityEnabled":true
+    },
+    "NotificationsDeleteButton": {
+        "hint":"",
+        "label":"Delete",
+        "isAccessiblityEnabled":true
+    }
+}

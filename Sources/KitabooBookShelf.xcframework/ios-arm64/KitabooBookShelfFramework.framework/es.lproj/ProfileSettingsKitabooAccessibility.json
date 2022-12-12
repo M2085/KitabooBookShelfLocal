@@ -1,0 +1,158 @@
+{
+    "ProfileSettingsBackButton":
+    {
+        "hint":"Toque este botón para cerrar la configuración del perfil. Y de vuelta a Bookshelf.",
+        "label":"atrás",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsChangePasswordButton":
+    {
+        "hint":"Toque este botón para cambiar su contraseña.",
+        "label":"Cambia la contraseña",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsEditProfileButton":
+    {
+        "hint":"Toque este botón para editar su foto de perfil y nombre de usuario.",
+        "label":"Editar perfil",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsAboutUsButton":
+    {
+        "hint":"Toque este botón para navegar a la página Acerca de nosotras.",
+        "label":"Sobre nosotros",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsPrivacyPolicyButton":
+    {
+        "hint":"Toque este botón para navegar a la página de política de privacidad.",
+        "label":"Política de privacidad",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsTermsAndConditionsButton":
+    {
+        "hint":"Toque este botón para navegar a la página de términos y condiciones.",
+        "label":"Términos y condiciones",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsSignOutButton":
+    {
+        "hint":"Toque este botón para cerrar sesión.",
+        "label":"Desconectar",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsVersionLabel":
+    {
+        "hint":"",
+        "label":"Versión 1.0",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordBackButton":
+    {
+        "hint":"Volver a la configuración del perfil.",
+        "label":"atrás",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordCurrentPasswordTF":
+    {
+        "hint":"Ingrese su contraseña actual aquí.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordNewPasswordTF":
+    {
+        "hint":"Ingrese su nueva contraseña aquí.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordReEntrePasswordTF":
+    {
+        "hint":"Vuelva a ingresar su contraseña aquí.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordCancelButton":
+    {
+        "hint":"Toque este botón para cancelar su solicitud. Y vuelva a la configuración del perfil.",
+        "label":"Cancelar",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordSaveButton":
+    {
+        "hint":"Toque este botón para guardar su solicitud de cambio de contraseña. Y vuelva a Configuración del perfil después de la actualización de los datos.",
+        "label":"Salvar",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordOpenEyeIcon":
+    {
+        "hint":"Las contraseñas son visibles",
+        "label":"Contraseña oculta",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordCloseEyeIcon":
+    {
+        "hint":"Las contraseñas son invisibles",
+        "label":"Mostrar contraseña",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileBackButton":
+    {
+        "hint":"Volver a la configuración del perfil.",
+        "label":"atrás",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileEditImageButton":
+    {
+        "hint":"Toque este botón para cambiar su foto de perfil.",
+        "label":"Editar foto de perfil",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileFirstNameTF":
+    {
+        "hint":"Ingrese su nombre aquí.",
+        "label":"Primer nombre",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileLastNameTF":
+    {
+        "hint":"Ingrese su apellido aquí.",
+        "label":"Apellido",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileCancelButton":
+    {
+        "hint":"Toque este botón para cancelar su solicitud. Y vuelva a la configuración del perfil.",
+        "label":"Cancelar",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileSaveButton":
+    {
+        "hint":"Toque este botón para guardar su solicitud de actualización de perfil. Y vuelva a Configuración del perfil después de la actualización de los datos.",
+        "label":"Salvar",
+        "isAccessiblityEnabled":true
+    },
+    "ImageControlDefault":
+    {
+        "hint":"Toque este botón para la foto de perfil predeterminada.",
+        "label":"Defecto",
+        "isAccessiblityEnabled":true
+    },
+    "ImageControlCamera":
+    {
+        "hint":"Toque este botón para abrir la cámara.",
+        "label":"Cámara",
+        "isAccessiblityEnabled":true
+    },
+    "ImageControlLibrary":
+    {
+        "hint":"Toque este botón para abrir la biblioteca.",
+        "label":"Biblioteca",
+        "isAccessiblityEnabled":true
+    },
+    "SelectLanguageButton":
+    {
+        "hint":"Toque este botón para cambiar el idioma",
+        "label":"seleccione el idioma",
+        "isAccessiblityEnabled":true
+    }
+}

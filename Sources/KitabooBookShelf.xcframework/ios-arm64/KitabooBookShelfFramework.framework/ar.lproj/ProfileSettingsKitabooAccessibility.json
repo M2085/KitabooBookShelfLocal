@@ -1,0 +1,158 @@
+{
+    "ProfileSettingsBackButton":
+    {
+        "hint":"اضغط على هذا الزر لإغلاق إعدادات الملف الشخصي. والعودة إلى رف الكتب",
+        "label":"عودة",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsChangePasswordButton":
+    {
+        "hint":"اضغط على هذا الزر لتغيير كلمة المرور الخاصة بك",
+        "label":"تغيير كلمة المرور",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsEditProfileButton":
+    {
+        "hint":"انقر فوق هذا الزر لتحرير صورة ملف التعريف الخاص بك واسم المستخدم",
+        "label":"تعديل الملف الشخصي",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsAboutUsButton":
+    {
+        "hint":"اضغط على هذا الزر للتنقل إلى صفحة نبذة عنا",
+        "label":"معلومات عنا",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsPrivacyPolicyButton":
+    {
+        "hint":"اضغط على هذا الزر للتنقل إلى صفحة سياسة الخصوصية",
+        "label":"سياسة الخصوصية",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsTermsAndConditionsButton":
+    {
+        "hint":"اضغط على هذا الزر للتنقل إلى صفحة الشروط والأحكام",
+        "label":"الأحكام والشروط",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsSignOutButton":
+    {
+        "hint":"اضغط على هذا الزر لتسجيل الخروج",
+        "label":"خروج",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsVersionLabel":
+    {
+        "hint":"",
+        "label":"الإصدار 1.0",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordBackButton":
+    {
+        "hint":"رجوع إلى إعدادات الملف الشخصي",
+        "label":"عودة",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordCurrentPasswordTF":
+    {
+        "hint":"دخل كلمة المرور الحالية الخاصة بك هنا",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordNewPasswordTF":
+    {
+        "hint":"دخل كلمة المرور الجديدة الخاصة بك هنا",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordReEntrePasswordTF":
+    {
+        "hint":"أعد إدخال كلمة المرور الخاصة بك هنا",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordCancelButton":
+    {
+        "hint":"اضغط على هذا الزر لإلغاء طلبك. والعودة إلى إعدادات الملف الشخصي",
+        "label":"يلغي",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordSaveButton":
+    {
+        "hint":"انقر فوق هذا الزر لحفظ طلبك لتغيير كلمة المرور. والعودة إلى إعدادات الملف الشخصي بعد تحديث البيانات",
+        "label":"يحفظ",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordOpenEyeIcon":
+    {
+        "hint":"كلمات المرور مرئية",
+        "label":"اخفاء كلمة المرور",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordCloseEyeIcon":
+    {
+        "hint":"كلمات المرور غير مرئية",
+        "label":"عرض كلمة المرور",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileBackButton":
+    {
+        "hint":"رجوع إلى إعدادات الملف الشخصي",
+        "label":"عودة",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileEditImageButton":
+    {
+        "hint":"اضغط على هذا الزر لتغيير صورة ملفك الشخصي",
+        "label":"تحرير صورة الملف الشخصي",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileFirstNameTF":
+    {
+        "hint":"أدخل اسمك الأول هنا",
+        "label":"الاسم الأول",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileLastNameTF":
+    {
+        "hint":"أدخل اسمك الأخير هنا",
+        "label":"الكنية",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileCancelButton":
+    {
+        "hint":"اضغط على هذا الزر لإلغاء طلبك. والعودة إلى إعدادات الملف الشخصي",
+        "label":"يلغي",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileSaveButton":
+    {
+        "hint":"اضغط على هذا الزر لحفظ طلبك لتحديث الملف الشخصي. والعودة إلى إعدادات الملف الشخصي بعد تحديث البيانات",
+        "label":"يحفظ",
+        "isAccessiblityEnabled":true
+    },
+    "ImageControlDefault":
+    {
+        "hint":"اضغط على هذا الزر لصورة الملف الشخصي الافتراضية",
+        "label":"تقصير",
+        "isAccessiblityEnabled":true
+    },
+    "ImageControlCamera":
+    {
+        "hint":"اضغط على هذا الزر لفتح الكاميرا",
+        "label":"آلة تصوير",
+        "isAccessiblityEnabled":true
+    },
+    "ImageControlLibrary":
+    {
+        "hint":"اضغط على هذا الزر لفتح المكتبة",
+        "label":"مكتبة",
+        "isAccessiblityEnabled":true
+    },
+    "SelectLanguageButton":
+    {
+        "hint":"اضغط على هذا الزر لتغيير اللغة",
+        "label":"اختار اللغة",
+        "isAccessiblityEnabled":true
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "LoginScreenUsernameTF":
+    {
+        "hint":"Skriv inn brukernavnet ditt",
+        "label":"Brukernavn",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenPasswordTF":
+    {
+        "hint":"Skriv inn passordet ditt.",
+        "label":"Passord",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenShowPassword":
+    {
+        "hint":"Passord er usynlige",
+        "label":"Vis passord",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenHidePassword":
+    {
+        "hint":"Passord er synlige",
+        "label":"Skjul passord",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenForgotPasswordButton":
+    {
+        "hint":"Trykk på denne knappen for å navigere til siden Glemt passord.",
+        "label":"Glemt passordknappen",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenSignInButton":
+    {
+        "hint":"Trykk på denne knappen for å logge på.",
+        "label":"Logg på-knapp",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenRememberMeButton":
+    {
+        "hint":"",
+        "label":"Husk meg, knapp, %@",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordUsernameTF":
+    {
+        "hint":"Skriv brukernavnet ditt her.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordCancelButton":
+    {
+        "hint":"Trykk på denne knappen for å avbryte forespørselen. Og gå tilbake til påloggingsskjermen.",
+        "label":"Avbryt",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordSaveButton":
+    {
+        "hint":"Trykk på denne knappen for å fortsette forespørselen. Og gå tilbake til påloggingsskjermen etter oppdatering av dataene.",
+        "label":"Sende inn",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordDescriptionLabel":
+    {
+        "hint":"Skriv inn e-postadressen din nedenfor så sender vi deg en lenke med nytt passord.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "SelectLanguageButton":
+    {
+        "hint":"Trykk på denne knappen for å endre språk",
+        "label":"Velg språk",
+        "isAccessiblityEnabled":true
+    }
+}

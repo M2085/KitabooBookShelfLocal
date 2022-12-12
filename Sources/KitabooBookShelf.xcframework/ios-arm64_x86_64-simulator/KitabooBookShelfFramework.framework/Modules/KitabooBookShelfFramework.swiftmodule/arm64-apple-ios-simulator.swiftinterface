@@ -1,0 +1,459 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KitabooBookShelfFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVKit
+import CoreData
+import CoreFoundation
+import CoreMedia
+import Foundation
+@_exported import KitabooBookShelfFramework
+import KitabooSDKWithReader
+import Kitaboo_Reader_SDK
+import Speech
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+extension UIKit.UITextField {
+  @available(iOS 13.0, *)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var editingInteractionConfiguration: UIKit.UIEditingInteractionConfiguration {
+    @objc get
+  }
+}
+extension UIKit.UITextView {
+  @available(iOS 13.0, *)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var editingInteractionConfiguration: UIKit.UIEditingInteractionConfiguration {
+    @objc get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) open class RTLorLTRFlowLayout : UIKit.UICollectionViewFlowLayout {
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var flipsHorizontallyInOppositeLayoutDirection: Swift.Bool {
+    @objc get
+  }
+  @objc deinit
+}
+extension UIKit.UIImage {
+  @objc dynamic open class func circularImage(_ color: UIKit.UIColor, size: CoreFoundation.CGSize) -> UIKit.UIImage?
+}
+@_inheritsConvenienceInitializers @objc public class HDKitabooServiceConstants : ObjectiveC.NSObject {
+  @objc public static let responseStatusCode200: Swift.String
+  @objc public static let responseStatusCode600: Swift.String
+  @objc public static let responseStatusCode400: Swift.String
+  @objc public static let responseStatusCode103: Swift.String
+  @objc public static let responseStatusCode202: Swift.String
+  @objc public static let responseStatusCode426: Swift.String
+  @objc public static let responseStatusCode501: Swift.String
+  @objc public static let responseStatusCode401: Swift.String
+  @objc public static let responseStatusCode101: Swift.String
+  @objc public static let responseStatusCode902: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class HDBookSessionHistoryManager : KitabooBookShelfFramework.HDKitabooDataManager {
+  @objc public func saveSessionServiceRequest()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class HDUserSettingsManager : ObjectiveC.NSObject {
+  @objc public static let sharedObject: KitabooBookShelfFramework.HDUserSettingsManager
+  @objc public func getLogoUrl() -> Swift.String
+  @objc public func isBookmarkEnabled() -> Swift.Bool
+  @objc public func isSharingEnabled() -> Swift.Bool
+  @objc public func isAutoLoginEnabled() -> Swift.Bool
+  @objc public func isHighLightEnabled() -> Swift.Bool
+  @objc public func isStickyNotesEnabled() -> Swift.Bool
+  @objc public func isSearchEnabled() -> Swift.Bool
+  @objc public func isAutoReadAloudEnabled() -> Swift.Bool
+  @objc public func isMathEditorEnabled() -> Swift.Bool
+  @objc public func isMydataEnabled() -> Swift.Bool
+  @objc public func isProtractorEnabled() -> Swift.Bool
+  @objc public func isReviewEnabled() -> Swift.Bool
+  @objc public func isPenToolEnabled() -> Swift.Bool
+  @objc public func isContextualNoteEnabled() -> Swift.Bool
+  @objc public func pentoolPenColors() -> [Swift.String]
+  @objc public func isClearAllFIBsEnabled() -> Swift.Bool
+  @objc public func isTextAnnotationEnabled() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ScreenShotCaptureController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @objc @_Concurrency.MainActor(unsafe) public init(_ userID: Foundation.NSNumber)
+  @objc deinit
+  @objc @_Concurrency.MainActor(unsafe) public func checkScreenShotGrabLimitExceeded()
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class HDRefreshTokenDataManager : KitabooBookShelfFramework.HDKitabooDataManager {
+  @objc public static func sharedInstance() -> KitabooBookShelfFramework.HDRefreshTokenDataManager
+  @objc public var renewTokenOperationQue: Foundation.OperationQueue
+  @objc public func renewTokenBlock(kitabooUser: Kitaboo_Reader_SDK.KitabooUser, expiredToken: Swift.String, completionBlock: @escaping () -> Swift.Void) -> Foundation.BlockOperation
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class HDKitabooUserDataManager : KitabooBookShelfFramework.HDKitabooDataManager {
+  @objc public func authenticateUser(userName name: Swift.String, andPassword password: Swift.String, successHandler: @escaping (Kitaboo_Reader_SDK.KitabooUser) -> (), failureHandler: @escaping (Swift.Error) -> ())
+  @objc public func getLoggedInUser() -> Kitaboo_Reader_SDK.KitabooUser?
+  public func saveKitabooUser(_ kitabooUser: Kitaboo_Reader_SDK.KitabooUser, completionBlock: @escaping () -> Swift.Void)
+  @objc public func saveKitabooUser(_ kitabooUser: Kitaboo_Reader_SDK.KitabooUser)
+  @objc public func signout(_ kitabooUser: Kitaboo_Reader_SDK.KitabooUser)
+  @objc public func updateUserLoggedInStatus(kitabooUser: Kitaboo_Reader_SDK.KitabooUser, isLoggedIn: Swift.Bool)
+  @objc public func getScreenShotGrabCountForUserID(_ userID: Foundation.NSNumber, completionBlock: @escaping (Foundation.NSNumber) -> Swift.Void)
+  public func setScreenShotGrabCount(_ count: Foundation.NSNumber, for userID: Foundation.NSNumber)
+  @objc public func getUnSyncedScreenShotGrabCountForUserID(_ userID: Foundation.NSNumber, completionBlock: @escaping (Foundation.NSNumber) -> Swift.Void)
+  @objc public func setUnSyncedScreenShotGrabCount(_ count: Foundation.NSNumber, for userID: Foundation.NSNumber)
+  @objc public func fetchDeviceSession(withUserToken userToken: Swift.String, successHandler: @escaping (Swift.Dictionary<Swift.String, Any>) -> (), failureHandler: @escaping (Swift.Error) -> ())
+  @objc public func deleteSession(withUserToken userToken: Swift.String, uuId: Swift.String, successHandler: @escaping (Swift.Dictionary<Swift.String, Any>) -> (), failureHandler: @escaping (Swift.Error) -> ())
+  @objc public func deleteAllSession(withUserToken userToken: Swift.String, successHandler: @escaping (Swift.Dictionary<Swift.String, Any>) -> (), failureHandler: @escaping (Swift.Error) -> ())
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class HDApplicationLanguageManager : ObjectiveC.NSObject {
+  @objc public static let sharedObject: KitabooBookShelfFramework.HDApplicationLanguageManager
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum BookStatus : Swift.String {
+  case kNormal
+  case kDownloaded
+  case kStarted
+  case kDownloading
+  case kUpdate
+  case kPause
+  case kFailed
+  case kUnzipping
+  case kLoading
+  case kRetrying
+  case kSelected
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class KitabooAccessibilityManager : KitabooSDKWithReader.AccessibilityManager {
+  @objc public static let sharedInstance: KitabooBookShelfFramework.KitabooAccessibilityManager
+  @objc override public func setAccessibilityBundle()
+  @objc public func setAccessibilityLanguage()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class HDVideoPlayerView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension KitabooBookShelfFramework.HDVideoPlayerView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+}
+public enum kBookState : ObjectiveC.NSInteger {
+  case kDownloadingState
+  case kDownloadState
+  case kDownloadedState
+  case kDownloadingPauseState
+  public init?(rawValue: ObjectiveC.NSInteger)
+  public typealias RawValue = ObjectiveC.NSInteger
+  public var rawValue: ObjectiveC.NSInteger {
+    get
+  }
+}
+public struct Constants {
+}
+public enum TableViewCellType : Swift.String {
+  case kCategoryTypeCell
+  case kCollectionTypeCell
+  case kExpandedCategoryTypeCell
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class HDBookShelfController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var shouldAutorotate: Swift.Bool {
+    @objc get
+  }
+}
+extension KitabooBookShelfFramework.HDBookShelfController : KitabooBookShelfFramework.CategorySliderBarDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didSelectCategoryName(_ categoryName: Swift.String!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func minimumInterCategorySpacing(forCategoryBar CategoryActionBar: KitabooBookShelfFramework.CategorySliderBar!) -> CoreFoundation.CGFloat
+}
+extension KitabooBookShelfFramework.HDBookShelfController : UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForFooterInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+extension KitabooBookShelfFramework.HDBookShelfController : UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, willDisplay cell: UIKit.UITableViewCell, forRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didEndDisplaying cell: UIKit.UITableViewCell, forRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, willDisplayFooterView view: UIKit.UIView, forSection section: Swift.Int)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didEndDisplayingFooterView view: UIKit.UIView, forSection section: Swift.Int)
+}
+extension KitabooBookShelfFramework.HDBookShelfController : UIKit.UICollectionViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+}
+extension KitabooBookShelfFramework.HDBookShelfController : UIKit.UICollectionViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, didEndDisplayingSupplementaryView view: UIKit.UICollectionReusableView, forElementOfKind elementKind: Swift.String, at indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, willDisplay cell: UIKit.UICollectionViewCell, forItemAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, willDisplaySupplementaryView view: UIKit.UICollectionReusableView, forElementKind elementKind: Swift.String, at indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, viewForSupplementaryElementOfKind kind: Swift.String, at indexPath: Foundation.IndexPath) -> UIKit.UICollectionReusableView
+}
+extension KitabooBookShelfFramework.HDBookShelfController : UIKit.UICollectionViewDelegateFlowLayout {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, referenceSizeForFooterInSection section: Swift.Int) -> CoreFoundation.CGSize
+}
+extension KitabooBookShelfFramework.HDBookShelfController : Kitaboo_Reader_SDK.HDBookDownloaderManagerDelegate, Kitaboo_Reader_SDK.HDBookUnZipManagerDelegate, KitabooSDKWithReader.ReaderViewControllerDelegate, Kitaboo_Reader_SDK.KitabooDataSyncingManagerDelegate, KitabooBookShelfFramework.OldMigrationUGCHandlerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didRemoveProfilePopOver()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didTap(onProfilePic view: UIKit.UIView!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didOldDBMigrationFailedWithError()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didOldDBMigrationCompletedSuccessfully()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didBookLoadedSuccessfully(withBook bookVO: Kitaboo_Reader_SDK.KitabooBookVO!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func checkUgcSync(inProgress syncInProgress: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didUGCSynchCompletedSuccessfully()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didSavedUGCSuccessfully()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didFailedToSaveUGCWithError(_ error: Swift.Error!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func bookDownloadRequestDidUpdateProgress(_ bookDownloadDetail: Kitaboo_Reader_SDK.HDBookDownloadDetails, bookID: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func bookDownloadRequestCanceled(_ bookDownloadDetail: Kitaboo_Reader_SDK.HDBookDownloadDetails, bookID: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func bookDownloadRequestDidRetry(_ bookDownloadDetail: Kitaboo_Reader_SDK.HDBookDownloadDetails, bookID: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func bookDownloadRequestFinished(_ bookDownloadDetail: Kitaboo_Reader_SDK.HDBookDownloadDetails, bookID: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func bookDownloadRequestDidPaused(_ bookDownloadDetail: Kitaboo_Reader_SDK.HDBookDownloadDetails, bookID: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func bookDownloadRequestDidResumed(_ bookDownloadDetail: Kitaboo_Reader_SDK.HDBookDownloadDetails, bookID: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func bookDownloadRequestDidFailedWithError(_ error: Foundation.NSError, bookDownloadDetail: Kitaboo_Reader_SDK.HDBookDownloadDetails, bookID: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func bookDownloadRequestDestinationDoestNotExists(_ bookDownloadDetail: Kitaboo_Reader_SDK.HDBookDownloadDetails, bookID: Swift.String, location: Foundation.URL)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func bookDownloadRequestDidPopulatedInterruptedTasks(_ bookDownloadDetail: [Kitaboo_Reader_SDK.HDBookDownloadDetails])
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func bookDownloadRequestStarted(_ bookDownloadDetail: Kitaboo_Reader_SDK.HDBookDownloadDetails, bookID: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func zipArchiveWillUnzipArchive(atPath path: Swift.String!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func zipArchiveDidUnzipFile(at fileIndex: Swift.Int, totalFiles: Swift.Int, archivePath: Swift.String!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func zipArchiveWillUnzipFile(at fileIndex: Swift.Int, totalFiles: Swift.Int, archivePath: Swift.String!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func zipArchiveDidUnzipArchive(atPath path: Swift.String!, unzippedPath: Swift.String!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didUGCFetchCompletedSuccessfully(withUserID userID: Swift.String!, withBookID bookID: Swift.String!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didUpdateFurthestPageData(_ furthestPageData: Swift.String!, forBookID bookID: Swift.String!, forUserID userID: Foundation.NSNumber!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didClosedReader(_ reader: UIKit.UIViewController!, forBookID bookID: Foundation.NSNumber!, withLastPageFolio lastPageFolio: Swift.String, withAvgTimePerPage avgTimePerPage: Foundation.NSNumber, withIsReaderForceClosed isReaderForceClosed: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didSessionExpired(forReader reader: UIKit.UIViewController!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didLastVisitedFolioNumber(forBookID bookID: Foundation.NSNumber!, withLastPageFolio lastPageFolio: Swift.String!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func jumpToBookReader(forBookID bookID: Swift.String!, withBookId pageId: Swift.String!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func refreshUserToken(for user: Kitaboo_Reader_SDK.KitabooUser!, withExpiredToken expiredUserToken: Swift.String!, completed completionHandler: ((Kitaboo_Reader_SDK.KitabooUser?) -> Swift.Void)!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didSignOut(for user: Kitaboo_Reader_SDK.KitabooUser!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func isBookDownloaded(forBookID bookID: Swift.String!) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didUGCSynchFailedWithError(_ error: Swift.Error!, withUserID userID: Swift.String!, withBookID bookID: Swift.String!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didUGCSaveCompletedSuccessfully(withUserID userID: Swift.String!, withBookID bookID: Swift.String!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didUGCSaveFailedWithError(_ error: Swift.Error!, withUserID userID: Swift.String!, withBookID bookID: Swift.String!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didSaveTrackingDataFailedWithError(_ error: Swift.Error!, forBookID bookID: Foundation.NSNumber!, forUserId userID: Foundation.NSNumber!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didSaveFurthestPageDataSuccessfully(_ bookID: Foundation.NSNumber!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didFailedToSaveFurthestPageDataWithError(_ error: Swift.Error!, forBookID bookID: Foundation.NSNumber!)
+}
+extension KitabooBookShelfFramework.HDBookShelfController : Kitaboo_Reader_SDK.HDAVTOCPlayerControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func videoTOCPlayerDidStopPlaying()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func videoTOCPlayerDidPausePlaying()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func videoTOCPlayerDidFinishPlaying()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func videoTOCPlayerDidEnterFullScreen()
+}
+extension KitabooBookShelfFramework.HDBookShelfController : KitabooBookShelfFramework.WebReaderViewControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didClosedWebReader(forBookID bookID: Foundation.NSNumber, andClassID classID: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func sessionExpired()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didSavedScormDataSuccessfully()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didFailedToSaveScormWithError(_ error: Swift.Error!, withBookID bookID: Foundation.NSNumber!, withScormID scormID: Swift.String!, withClassID classID: Swift.String!)
+}
+extension KitabooBookShelfFramework.HDBookShelfController : UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldReceive touch: UIKit.UITouch) -> Swift.Bool
+}
+extension KitabooBookShelfFramework.HDBookShelfController : KitabooSDKWithReader.HelpDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func swipeAtIndex(_ index: Swift.Int)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didRemovedHelpScreen()
+}
+extension KitabooBookShelfFramework.HDBookShelfController : UIKit.UIPopoverPresentationControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func popoverPresentationControllerDidDismissPopover(_ popoverPresentationController: UIKit.UIPopoverPresentationController)
+}
+extension KitabooBookShelfFramework.HDBookShelfController : KitabooSDKWithReader.HDKitabooMediaBookControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didTapOnNextMedia(withBookID bookID: Swift.String, withLastPageFolio lastPageFolio: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didTapOnPreviousMedia(withBookID bookID: Swift.String, withLastPageFolio lastPageFolio: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didUserSessionExpired()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func imageView(forThumbnail thumbnailURL: Swift.String) -> UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didTapOnBack(withBookID bookID: Swift.String, withLastPageFolio lastPageFolio: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didFetchLastAccessed(forBookID bookID: Swift.String, withLastPageFolio lastPageFolio: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func refreshUserToken(_ user: Kitaboo_Reader_SDK.KitabooUser, withExpiredToken expiredUserToken: Swift.String, completed completionHandler: @escaping (Kitaboo_Reader_SDK.KitabooUser) -> Swift.Void)
+}
+extension KitabooBookShelfFramework.HDBookShelfController {
+  @_Concurrency.MainActor(unsafe) public func launchBookForExternalBookID(_ bookID: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func expandCollectionFromDeepLink(_ collectionId: Swift.String, _ categoryId: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func checkAndValidateUserSession()
+  @_Concurrency.MainActor(unsafe) public func checkForExpiryBooksAndUserSession()
+  @_Concurrency.MainActor(unsafe) public func checkForEmptyExpiryValueBooks()
+  @_Concurrency.MainActor(unsafe) public func performActionOnSessionExpired()
+  @_Concurrency.MainActor(unsafe) public func performActionForInvalidTime()
+}
+extension KitabooBookShelfFramework.HDBookShelfController : KitabooSDKWithReader.HDKitabooHLSDownloaderManagerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didDeleteHLSBook(withBookID bookID: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didDownloadHLSRequestFailWithError(_ error: Swift.Error, forState bookDownloadStatus: Swift.String, forBookID bookID: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didDownloadHLSStateUpdate(_ bookDownloadStatus: Swift.String, withBookDownloadProgress progress: CoreFoundation.CGFloat, forBookID bookID: Swift.String)
+}
+@_inheritsConvenienceInitializers @objc public class HDKitabooDataManager : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class PartnerDetail : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension KitabooBookShelfFramework.PartnerDetail {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<KitabooBookShelfFramework.PartnerDetail>
+  @objc @NSManaged dynamic public var city: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var contact: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var country: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var createdOn: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var disabled: Foundation.NSNumber? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var districtId: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var districtName: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var email: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var firstName: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var isAssign: Foundation.NSNumber? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var lastName: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var logoUrl: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var partnerName: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var partnerReferenceId: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var ssoType: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var street: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var type: Foundation.NSNumber? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var username: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var userReferenceId: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var zip: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
+public enum RecordType : Swift.Int {
+  case kCategoryBookListType
+  case kCollectionBookListType
+  case kRecentlyBookListType
+  case kFavouriteListType
+  case kSerchBookListType
+  case kUnknownType
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum ServiceType : Swift.Int {
+  case kCategoryType
+  case kRecentlyViewedType
+  case kBookListType
+  case kCollectionType
+  case kFavouriteListType
+  case kMarkFavouriteType
+  case kUnMarkFavouriteType
+  case kSerchBookListType
+  case kGetDownloadUrl
+  case kDeleteBookType
+  case kFetchClassInfoType
+  case kGetAnalyticsDataType
+  case kGetAllBookUrlType
+  case kDeleteAllBookUrlType
+  case kElasticSearchType
+  case kRefreshBookListType
+  case kGetBookDetailType
+  case kFetchUserSettingsApi
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public class Analytics {
+  public init()
+  public func log(message: Swift.String)
+  @objc deinit
+}
+extension KitabooBookShelfFramework.BookStatus : Swift.Equatable {}
+extension KitabooBookShelfFramework.BookStatus : Swift.Hashable {}
+extension KitabooBookShelfFramework.BookStatus : Swift.RawRepresentable {}
+extension KitabooBookShelfFramework.kBookState : Swift.Equatable {}
+extension KitabooBookShelfFramework.kBookState : Swift.Hashable {}
+extension KitabooBookShelfFramework.kBookState : Swift.RawRepresentable {}
+extension KitabooBookShelfFramework.TableViewCellType : Swift.Equatable {}
+extension KitabooBookShelfFramework.TableViewCellType : Swift.Hashable {}
+extension KitabooBookShelfFramework.TableViewCellType : Swift.RawRepresentable {}
+extension KitabooBookShelfFramework.RecordType : Swift.Equatable {}
+extension KitabooBookShelfFramework.RecordType : Swift.Hashable {}
+extension KitabooBookShelfFramework.RecordType : Swift.RawRepresentable {}
+extension KitabooBookShelfFramework.ServiceType : Swift.Equatable {}
+extension KitabooBookShelfFramework.ServiceType : Swift.Hashable {}
+extension KitabooBookShelfFramework.ServiceType : Swift.RawRepresentable {}

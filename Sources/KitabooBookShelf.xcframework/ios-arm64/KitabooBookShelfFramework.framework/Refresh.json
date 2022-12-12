@@ -1,0 +1,182 @@
+{
+    "responseCode": 200,
+    "responseMsg": "OK",
+    "collectionList": [
+        {
+            "totalbooks": 100,
+            "collectionID": "504846",
+            "collectionTitle": "5aprilCatCollection",
+            "collectionThumbnail": "https://s3-europe-bucket.s3.amazonaws.com/distribution/thumbnails/books/185/185/502051.png?timestamp=1554374481742?timestamp=1554378699",
+            "operation": "NON"
+        },
+        {
+            "totalbooks": 100,
+            "collectionID": "504846",
+            "collectionTitle": "5aprilCatCollection",
+            "collectionThumbnail": "https://s3-europe-bucket.s3.amazonaws.com/distribution/thumbnails/books/185/185/502051.png?timestamp=1554374481742?timestamp=1554378699",
+            "operation": "DELETE"
+        }
+    ],
+    "bookList": [
+        {
+            "book": {
+                "id": 348893578,
+                "isbn": "1519022517484",
+                "title": "Father Goriot",
+                "thumbURL": "?timestamp=1519024693458",
+                "pages": 0,
+                "author": "Honoré de Balzac",
+                "formats": [
+                    {
+                        "name": "Author_REFLOW_EPUB3"
+                    }
+                ],
+                "keywords": "Father Goriot",
+                "description": "Father Goriot",
+                "category": "Mythology, Legends, and Folklore",
+                "bookCode": "191222222",
+                "version": "1.0",
+                "type": 1,
+                "hasPrint": false,
+                "hasPreview": true,
+                "ebookID": "2474876",
+                "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                "testMode": "N",
+                "classList": [
+                    {
+                        "classID": "1",
+                        "roleID": "1",
+                        "roleName": "INSTRUCTOR",
+                        "suspendData": "0"
+                    }
+                ],
+                "assetType": "EPUB",
+                "collectionType": "DEFAULT_COLLECTION",
+                "collectionID": "236274",
+                "collectionTitle": "Father Goriot",
+                "collectionThumbnail": "?timestamp=1519024693458",
+                "bookId": "2474876",
+                "assignedOn": "2018-02-20 15:38:12",
+                "reflow": "Y",
+                "bookActive": false,
+                "language": "English",
+                "clientBookMetaData": {
+                    "contributor": "Ellen Marriage",
+                    "date": "2016-04-01T08:05:14.753044+00:00",
+                    "identifier": "http://www.gutenberg.org/ebooks/1237",
+                    "Interest Level": "Grades 6-8",
+                    "language": "en",
+                    "rights": "Public domain in the USA.",
+                    "source": "http://www.gutenberg.org/files/1237/1237-h/1237-h.htm",
+                    "subject": "Literature"
+                },
+                "favourite": true
+            },
+            "classAssociation": true,
+            "previewURL": "https://s3.amazonaws.com/hurix-staging-content/2474876/preview/2474876.zip",
+            "encryption": true
+        },
+        {
+            "book": {
+                "id": 348893579,
+                "isbn": "1519022559849",
+                "title": "Love for Love: A Comedy",
+                "thumbURL": "?timestamp=1519024683710",
+                "pages": 0,
+                "author": "William Congreve",
+                "formats": [
+                    {
+                        "name": "Author_REFLOW_EPUB3"
+                    }
+                ],
+                "keywords": "Love for Love: A Comedy",
+                "description": "Love for Love: A Comedy",
+                "category": "Mythology, Legends, and Folklore",
+                "bookCode": "191322222",
+                "version": "1.0",
+                "type": 1,
+                "hasPrint": false,
+                "hasPreview": true,
+                "ebookID": "2474877",
+                "publisherLogo": "https://dictera-widgets-staging.s3.amazonaws.com/distribution/logo.png",
+                "testMode": "N",
+                "classList": [
+                    {
+                        "classID": "1",
+                        "roleID": "1",
+                        "roleName": "INSTRUCTOR"
+                    }
+                ],
+                "assetType": "EPUB",
+                "collectionType": "DEFAULT_COLLECTION",
+                "collectionID": "236275",
+                "collectionTitle": "Love for Love: A Comedy",
+                "collectionThumbnail": "?timestamp=1519024683710",
+                "bookId": "2474877",
+                "assignedOn": "2018-02-20 15:38:32",
+                "reflow": "Y",
+                "bookActive": false,
+                "language": "English",
+                "clientBookMetaData": {
+                    "Interest Level": "Grades 9-12",
+                    "Series Title": "Assassin Of Outer Space",
+                    "subject": "Literature"
+                },
+                "favourite": true
+            },
+            "classAssociation": true,
+            "previewURL": "https://s3.amazonaws.com/hurix-staging-content/2474877/preview/2474877.zip",
+            "encryption": true
+        }
+    ]
+}
+
+{
+    "responseCode": 200,
+    "responseMsg": "SUCCESS",
+    "categories": [
+        {
+            "id": 75,
+            "name": "TotallyNew",
+            "hash": "1b3c54d8580ad4a2482126e2287a7539",
+            "bookIdList": [
+                31043,
+                51702
+            ],
+            "collectionBookCounts": [
+                {
+                    "collectionId": 44453,
+                    "collectionBookCount": 2,
+                    "collectionTitle": "CollectionA"
+                },
+                {
+                    "collectionId": 44454,
+                    "collectionBookCount": 2,
+                    "collectionTitle": "CollectionB"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "testnative250620",
+            "hash": "bb29ca600502977ad7d37f0610891e51",
+            "bookIdList": [
+                31043
+            ],
+            "collectionBookCounts": [
+                {
+                    "collectionId": 44453,
+                    "collectionBookCount": 1,
+                    "collectionTitle": "CollectionA"
+                },
+                {
+                    "collectionId": 44454,
+                    "collectionBookCount": 1,
+                    "collectionTitle": "CollectionB"
+                }
+            ]
+        }
+    ]
+}
+
+

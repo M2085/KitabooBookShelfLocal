@@ -1,0 +1,74 @@
+{
+    "LoginScreenUsernameTF":
+    {
+        "hint":"أدخل اسم المستخدم الخاص بك",
+        "label":"اسم المستخدم",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenPasswordTF":
+    {
+        "hint":"ادخل رقمك السري.",
+        "label":"كلمة المرور",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenShowPassword":
+    {
+        "hint":"كلمات المرور غير مرئية",
+        "label":"عرض كلمة المرور",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenHidePassword":
+    {
+        "hint":"كلمات المرور مرئية",
+        "label":"اخفاء كلمة المرور",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenForgotPasswordButton":
+    {
+        "hint":"اضغط على هذا الزر للتنقل إلى صفحة نسيت كلمة المرور",
+        "label":"هل نسيت كلمة المرور",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenSignInButton":
+    {
+        "hint":"اضغط على هذا الزر لتسجيل الدخول",
+        "label":"تسجيل الدخول",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenRememberMeButton":
+    {
+        "hint":"",
+        "label":"تذكرني ، زر ،٪@",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordUsernameTF":
+    {
+        "hint":"أدخل اسم المستخدم الخاص بك هنا",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordCancelButton":
+    {
+        "hint":"اضغط على هذا الزر لإلغاء طلبك. والعودة إلى شاشة تسجيل الدخول",
+        "label":"يلغي",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordSaveButton":
+    {
+        "hint":"اضغط على هذا الزر لمتابعة طلبك. والعودة إلى شاشة تسجيل الدخول بعد تحديث البيانات",
+        "label":"إرسال",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordDescriptionLabel":
+    {
+        "hint":"أدخل عنوان بريدك الإلكتروني أدناه وسنرسل لك رابطًا بكلمة مرور جديدة",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "SelectLanguageButton":
+    {
+        "hint":"اضغط على هذا الزر لتغيير اللغة",
+        "label":"اختار اللغة",
+        "isAccessiblityEnabled":true
+    }
+}

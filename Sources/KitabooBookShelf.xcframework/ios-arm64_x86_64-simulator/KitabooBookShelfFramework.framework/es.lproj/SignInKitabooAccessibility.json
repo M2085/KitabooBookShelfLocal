@@ -1,0 +1,74 @@
+{
+    "LoginScreenUsernameTF":
+    {
+        "hint":"Ingrese su nombre de usuario",
+        "label":"Nombre de usuario",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenPasswordTF":
+    {
+        "hint":"Ingresa tu contraseña.",
+        "label":"Clave",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenShowPassword":
+    {
+        "hint":"Las contraseñas son invisibles",
+        "label":"Mostrar contraseña",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenHidePassword":
+    {
+        "hint":"Las contraseñas son visibles",
+        "label":"Contraseña oculta",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenForgotPasswordButton":
+    {
+        "hint":"Toque este botón para navegar a la página Olvidé mi contraseña.",
+        "label":"Se te olvidó tu contraseña",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenSignInButton":
+    {
+        "hint":"Toque este botón para iniciar sesión.",
+        "label":"Registrarse",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenRememberMeButton":
+    {
+        "hint":"",
+        "label":"Recuérdame, Botón, %@",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordUsernameTF":
+    {
+        "hint":"Ingresa tu nombre de usuario aquí.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordCancelButton":
+    {
+        "hint":"Toque este botón para cancelar su solicitud. Y vuelva a la pantalla de inicio de sesión.",
+        "label":"Cancelar",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordSaveButton":
+    {
+        "hint":"Toque este botón para continuar con su solicitud. Y vuelva a la pantalla de inicio de sesión después de la actualización de los datos.",
+        "label":"Enviar",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordDescriptionLabel":
+    {
+        "hint":"Ingrese su dirección de correo electrónico a continuación y le enviaremos un enlace con una nueva contraseña.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "SelectLanguageButton":
+    {
+        "hint":"Toque este botón para cambiar el idioma",
+        "label":"seleccione el idioma",
+        "isAccessiblityEnabled":true
+    }
+}

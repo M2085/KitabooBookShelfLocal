@@ -1,0 +1,158 @@
+{
+    "ProfileSettingsBackButton":
+    {
+        "hint":"Trykk på denne knappen for å lukke profilinnstillingene. Og tilbake til bokhylle.",
+        "label":"Tilbake",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsChangePasswordButton":
+    {
+        "hint":"Trykk på denne knappen for å endre passordet ditt.",
+        "label":"Bytt passord",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsEditProfileButton":
+    {
+        "hint":"Trykk på denne knappen for å redigere profilbildet og brukernavnet ditt.",
+        "label":"Rediger profil",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsAboutUsButton":
+    {
+        "hint":"Trykk på denne knappen for å navigere til Om oss-siden.",
+        "label":"Om oss",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsPrivacyPolicyButton":
+    {
+        "hint":"Trykk på denne knappen for å gå til siden for personvernregler.",
+        "label":"Personvern",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsTermsAndConditionsButton":
+    {
+        "hint":"Trykk på denne knappen for å gå til vilkårssiden.",
+        "label":"Betingelser og vilkår",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsSignOutButton":
+    {
+        "hint":"Trykk på denne knappen for å logge av.",
+        "label":"Logg ut",
+        "isAccessiblityEnabled":true
+    },
+    "ProfileSettingsVersionLabel":
+    {
+        "hint":"",
+        "label":"Versjon 1.0",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordBackButton":
+    {
+        "hint":"Tilbake til profilinnstillinger.",
+        "label":"Tilbake",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordCurrentPasswordTF":
+    {
+        "hint":"Skriv inn ditt nåværende passord her.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordNewPasswordTF":
+    {
+        "hint":"Skriv inn ditt nye passord her.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordReEntrePasswordTF":
+    {
+        "hint":"Skriv inn passordet ditt her.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordCancelButton":
+    {
+        "hint":"Trykk på denne knappen for å avbryte forespørselen. Og gå tilbake til profilinnstillinger.",
+        "label":"Avbryt",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordSaveButton":
+    {
+        "hint":"Trykk på denne knappen for å lagre forespørselen din om å endre passord. Og gå tilbake til profilinnstillinger etter oppdatering av dataene.",
+        "label":"Lagre",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordOpenEyeIcon":
+    {
+        "hint":"Passord er synlige",
+        "label":"Skjul passord",
+        "isAccessiblityEnabled":true
+    },
+    "ChangePasswordCloseEyeIcon":
+    {
+        "hint":"Passord er usynlige",
+        "label":"Vis passord",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileBackButton":
+    {
+        "hint":"Tilbake til profilinnstillinger.",
+        "label":"Tilbake",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileEditImageButton":
+    {
+        "hint":"Trykk på denne knappen for å endre profilbildet ditt.",
+        "label":"Rediger profilbilde",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileFirstNameTF":
+    {
+        "hint":"Skriv inn ditt fornavn her.",
+        "label":"Fornavn",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileLastNameTF":
+    {
+        "hint":"Skriv inn etternavnet ditt her.",
+        "label":"Etternavn",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileCancelButton":
+    {
+        "hint":"Trykk på denne knappen for å avbryte forespørselen. Og gå tilbake til profilinnstillinger.",
+        "label":"Avbryt",
+        "isAccessiblityEnabled":true
+    },
+    "EditProfileSaveButton":
+    {
+        "hint":"Trykk på denne knappen for å lagre forespørselen din om oppdateringsprofil. Og gå tilbake til profilinnstillinger etter oppdatering av dataene.",
+        "label":"Lagre",
+        "isAccessiblityEnabled":true
+    },
+    "ImageControlDefault":
+    {
+        "hint":"Trykk på denne knappen for standard profilbilde.",
+        "label":"Misligholde",
+        "isAccessiblityEnabled":true
+    },
+    "ImageControlCamera":
+    {
+        "hint":"Trykk på denne knappen for å åpne kamera.",
+        "label":"Kamera",
+        "isAccessiblityEnabled":true
+    },
+    "ImageControlLibrary":
+    {
+        "hint":"Trykk på denne knappen for å åpne Bibliotek.",
+        "label":"Bibliotek",
+        "isAccessiblityEnabled":true
+    },
+    "SelectLanguageButton":
+    {
+        "hint":"Trykk på denne knappen for å endre språk",
+        "label":"Velg språk",
+        "isAccessiblityEnabled":true
+    }
+}

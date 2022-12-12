@@ -1,0 +1,75 @@
+{
+    "LoginScreenUsernameTF":
+    {
+        "hint":"Enter your Username",
+        "label":"Username",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenPasswordTF":
+    {
+        "hint":"Enter Your Password.",
+        "label":"Password",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenShowPassword":
+    {
+        "hint":"Passwords are Invisible",
+        "label":"Show Password",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenHidePassword":
+    {
+        "hint":"Passwords are visible",
+        "label":"Hide Password",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenForgotPasswordButton":
+    {
+        "hint":"Tap this button for navigation to Forgot Password page.",
+        "label":"Forgot Password",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenSignInButton":
+    {
+        "hint":"Tap this button for Sign In.",
+        "label":"Sign In",
+        "isAccessiblityEnabled":true
+    },
+    "LoginScreenRememberMeButton":
+    {
+        "hint":"",
+        "label":"Remember Me, Button, %@",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordUsernameTF":
+    {
+        "hint":"Enter your Username Here.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordCancelButton":
+    {
+        "hint":"Tap this button to Cancel your Request. And Return to Login Screen.",
+        "label":"Cancel",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordSaveButton":
+    {
+        "hint":"Tap this button to Proceed your Request. And Return to Login Screen after updation of the data.",
+        "label":"Submit",
+        "isAccessiblityEnabled":true
+    },
+    "ForgotPasswordDescriptionLabel":
+    {
+        "hint":"Enter your email address below and we will send you a link with a new password.",
+        "label":"",
+        "isAccessiblityEnabled":true
+    },
+    "SelectLanguageButton":
+    {
+        "hint":"Tap this button to change the language",
+        "label":"Select Language",
+        "isAccessiblityEnabled":true
+    }
+}
+
